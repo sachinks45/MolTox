@@ -1,0 +1,31 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore Python virtual environment
+backend/env39
+
+# Ignore environment files (secrets, API keys, etc.)
+.env
+
+# Ignore logs and cache
+*.log
+*.cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore build and dependency lock files
+package-lock.json
+yarn.lock
+dist/
+build/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+*.sublime-project
+
+# Ignore OS-specific files
+.DS_Store
