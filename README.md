@@ -11,11 +11,11 @@ It offers features like:
 - AI-driven interpretation of results using Gemini AI.
 - Clean single-page React frontend for a smooth user experience.
 
-![Molecular Toxicity Predictor - Interface](ss1.jpg)
+![Molecular Toxicity Predictor - Interface](ss1.png)
 
-![Molecular Properties](ss2.jpg)
+![Molecular Properties](ss2.png)
 
-![Plotted visulalisation of Prediction](ss3.jpg)
+![Plotted visulalisation of Prediction](ss3.png)
 
 ## Installation Instructions
 
