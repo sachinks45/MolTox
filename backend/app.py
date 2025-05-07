@@ -140,6 +140,7 @@ def query_gemini(prompt, smiles, properties_explanation, toxicity_explanation):
     try:
         model_gemini = genai.GenerativeModel("gemini-1.5-flash")
         context = f"""
+You are an reasearch assistant helping researcher in molecular toxicity prediction        
 Analysis for molecule with SMILES: {smiles}
 
 {properties_explanation}
@@ -147,6 +148,7 @@ Analysis for molecule with SMILES: {smiles}
 {toxicity_explanation}
 
 Please consider all the above information when answering the following question.
+
         """
         response = model_gemini.generate_content(f"{context}\n\nQuestion: {prompt}")
         return response.text
@@ -233,4 +235,4 @@ def analyze():
     })
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True, port=8000)
